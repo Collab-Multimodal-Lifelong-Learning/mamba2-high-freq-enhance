@@ -1,0 +1,23 @@
+name: mamba_hi
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9.19
+  - pip=24.2
+  - pip:
+    - numpy==1.24.3
+    - scipy==1.13.1
+    - mamba-ssm==2.2.2
+    - torch==2.2.2
+    - transformers==4.45.0
+    - datasets==2.21.0
+    - accelerate==1.2.0
+    - sentencepiece==0.2.0
+    - protobuf==4.25.4
+    - evaluate==0.4.2
+    - scikit-learn==1.5.1
+
+# pip3 install causal-conv1d
+# pip3 install lm_eval
