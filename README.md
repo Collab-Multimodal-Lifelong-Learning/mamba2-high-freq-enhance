@@ -1,6 +1,9 @@
 # Mitigating Over-Smoothing in Mamba2 via Spectral Domain Analysis
 
+📝 [Paper](https://openreview.net/forum?id=r08kqzrito)
+
 We introduce simple High-Frequency Enhancement method to mitigate over-smoothing in Mamba2.
+
 
 # Setup
 ## Create Environment
